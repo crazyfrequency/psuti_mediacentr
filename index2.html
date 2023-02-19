@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Заголовок новости</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-h1">ЦИФРА</div>
+        <div>
+            <div class="menu-h2">Студенческая газета</div>
+            <div class="menu-h2">Медиацентра ПГУТИ</div>
+        </div>
+        <div class="menu-line"></div>
+    </div>
+    <div class="big-main">
+        <div class="main">
+            <textarea id="title_input" rows="1" placeholder="Введите заголовок"></textarea>
+            <img class="main-image" src="image.png">
+            <div class="main-line"></div>
+            <textarea id="editorjs" class="main-text"rows="1"></textarea>
+        </div>
+        <div class="other_news">
+            
+        </div>
+    </div>
+    
+</body>
+<script src="autosize.js"></script>
+<script src="editor.js"></script>
+<script>autosize(document.querySelector('textarea'))</script>
+</html>
